@@ -799,6 +799,10 @@ iframe {
       width: 333px;
       height: 58px;
       padding: 0px 0px 0px 20px;
+      transition: .2s ease box-shadow;
+      &:focus{
+         box-shadow: -1px 0px 15px 0px #fff;
+      }
    }
    &__submit {
       width: 117px;
@@ -811,7 +815,7 @@ iframe {
       color: #fff;
       transition: .3s ease box-shadow;
       &:hover{
-         box-shadow: 10px 0px 17px 2px #ff7b47c0;
+         box-shadow: 5px 0px 17px 2px #ff7b47c0;
       }
    }
 }

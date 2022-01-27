@@ -837,6 +837,11 @@ iframe {
   width: 333px;
   height: 58px;
   padding: 0px 0px 0px 20px;
+  transition: .2s ease box-shadow;
+}
+
+.subscribe__input:focus {
+  box-shadow: -1px 0px 15px 0px #fff;
 }
 
 .subscribe__submit {
@@ -850,7 +855,7 @@ iframe {
 }
 
 .subscribe__submit:hover {
-  box-shadow: 10px 0px 17px 2px #ff7b47c0;
+  box-shadow: 5px 0px 17px 2px #ff7b47c0;
 }
 
 .body-brands__item {
